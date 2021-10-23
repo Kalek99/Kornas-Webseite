@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1002;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood;
+}
+header .logo
+{
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(133, 127, 120);
+  transition: 0.1s;
+  z-index: 2;
+}
+
+.showcase header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.showcase.active{
+    right: 300px;
+}
+
+.showcase inhalt{
+    display: flex;
+    background-color: white;
+    position: absolute;
+    z-index: 1001;
+    min-height: 100px;
+    min-width: 100px;
+    top:  145px;
+    bottom:  90px;
+    left: 80px;
+    right: 80px;
+    background-position: center;
+   
+}
+
+.beschreibung h2{
+  display: flex;
+  color: blue;
+  z-index: 1100;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 15px;
+}
+.beschreibung p{
+  display: flex;
+  color: grey;
+  z-index: 1100;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 15px;
+}
+  .toggle {
+    text-align: center;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background: burlywood;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 5px;
+    border: double ;
+    border-color: rgba(5, 6, 7, 0.37);
+}
+
+.toggle.active{
+    background: grey;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover
+{
+  color: #03a9f4; 
+
+}
+.social {
+    position: absolute;
+    padding-left: 40px;
+    bottom: 20 ;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social li{
+    list-style: none;
+
+}
+.social li a{
+    display: inline-block;
+    filter: invert(1);
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.social li a:hover{
+   transform: translateY(-15px);
+}
+footer{
+   z-index: 1001;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgb(14, 70, 255);
+    display:flex;
+    align-items: center;
+    width:100%;
+    height: 75px;
+    justify-content: space-between;
+    border-top-width: 5px;
+    border-top-style: double ;
+    border-color: rgba(153, 177, 255, 0.37);
+  
+    
+  }
+  .text h1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    display:flex;
+    color: grey;
+    font-family: 'Birthstone', cursive;
+  
+  }

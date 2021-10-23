@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aquaristik Kornas</title>
+</head>
+<body>
+    <section class="showcase ">
+        <header>
+            <h2 class="logo"><img src="Logo_FuerWeb.jpg"/></h2>
+            <div class="toggle">
+                <h1>Menü</h1>
+            </div>
+        </header>
+        <video src="backround.m4v" muted loop autoplay></video>
+        <div class="overlay"></div>
+        
+
+    <ul class="social">
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="https://i.ibb.co/ySwtH4B/instagram.png"/></a></li>
+        </ul> 
+        <div class="text">
+            <h1>Powered by P&P</h1>
+        </div>
+
+    </section>
+    <div class="menu">
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="pictures.html">Bilder</a></li>
+             <li><a href="#">Impressum</a></li>
+         </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+        const footer = document.querySelector('.footer')
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+            footer.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
+
