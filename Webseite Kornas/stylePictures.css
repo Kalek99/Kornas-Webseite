@@ -93,7 +93,7 @@ header .logo
   position: relative;
   width: 150px;
   height: 150px;
-  background: url(file:///C:/Users/pasca/Desktop/Kornas%20Website/Webseite%20Kornas/StandartDesign/Men%C3%BC%20Button%20Untouched.png);
+  background: url(file:///C:/Users/pasca/Desktop/Kornas%20Website/Webseite%20Kornas/StandartDesign/Menue%20Button%20Untouched.png);
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: center;
@@ -102,7 +102,7 @@ header .logo
 }
 
 .toggle.active{
-  background: url(file:///C:/Users/pasca/Desktop/Kornas%20Website/Webseite%20Kornas/StandartDesign/Men%C3%BC%20Button%20Touched.png);;
+  background: url(file:///C:/Users/pasca/Desktop/Kornas%20Website/Webseite%20Kornas/StandartDesign/Menue%20Button%20Untouched%20m.png);;
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: center;
