@@ -1,0 +1,36 @@
+html, body{
+margin: 0px;
+padding: 0;
+height: 100%;
+text-align: center;
+}
+
+section{
+    min-height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+   list-style-type: none;
+}
+
+h1, h2, h3, h4{ 
+    font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
+}
+
+a{
+    font-family: 'Arial', sans-serif;
+}
+
+.home video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
