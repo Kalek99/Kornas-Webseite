@@ -25,12 +25,30 @@ a{
     font-family: 'Arial', sans-serif;
 }
 
+.menu{
+    background-color: grey;
+    height: 50px;
+    text-align: center;
+}
+.menu li{
+    
+    padding: 20px;
+    display: inline;
+    list-style-type: none;
+}
+
 .home video{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     height: 100%;
-    object-fit: cover;
+    width: 100%;
+    
+    
     opacity: 0.8;
+    
 }
