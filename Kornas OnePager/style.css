@@ -3,15 +3,17 @@ html, body {
     padding: 0;
     height: 100%;
     text-align: center;
+    
     }
     
     section {
         min-height: 100%;
+       
     }
     
     a { 
         text-decoration: none;
-        color: white; /* nu r mal zur Probe muss angepast werden final*/
+        color: burlywood; /* nu r mal zur Probe muss angepast werden final*/
     }
     
     li {
@@ -36,17 +38,19 @@ html, body {
        border: 0px;
        margin: 0 auto 0 auto;
     }
-    #home {
+    #video  {
         position: auto;
+        
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        background-color: rgb(146, 241, 253);
-
+        background-color: rgb(159, 255, 255);
+     
     }
-    #home video {
+
+    #video video {
         position: auto;
         top: 0;
         left: 0;
@@ -54,6 +58,7 @@ html, body {
         height: 100%;
         object-fit: cover;
         opacity: 0.8;
+     
     }
     
     li, #logo {transition: all 350ms; -webkit-transition: all 350ms; -moz-transition: all 350ms; -o-transition: all 350ms;} /*BROWSERSUPPORT*/
@@ -106,3 +111,16 @@ html, body {
         float: left;
         margin-right: 15px;
     } 
+
+#ueberUns{
+background-color: burlywood;
+}
+#angebot{
+    background-color: burlywood;
+}
+#kontaktUndOeffnungszeiten{
+    background-color: burlywood;
+}
+#impressum {
+    background-color: burlywood;
+}
