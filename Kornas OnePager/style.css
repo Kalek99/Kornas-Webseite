@@ -1,59 +1,108 @@
-html, body{
-margin: 0px;
-padding: 0;
-height: 100%;
-text-align: center;
-}
-
-section{
-    min-height: 100%;
-}
-
-a{
-    text-decoration: none;
-    color: rgb(68, 66, 66); /* nu r mal zur Probe muss angepast werden final*/
-}
-
-li{
-   list-style-type: none;
-}
-
-h1, h2, h3, h4{ 
-    font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
-    color: grey;
-    padding-top: 5%;
-    text-transform: uppercase;
-
-}
-
-a{
-    font-family: 'Arial', sans-serif;
-}
-
-.menu{
-    background-color: grey;
-    height: 50px;
-    text-align: center;
-}
-.menu li{
-    
-    padding: 20px;
-    display: inline;
-    list-style-type: none;
-}
-
-.home video{
-    position: absolute;
-    
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+html, body {
+    margin: 0px;
+    padding: 0;
     height: 100%;
-    width: 100%;
+    text-align: center;
+    }
     
+    section {
+        min-height: 100%;
+    }
     
-    opacity: 0.8;
+    a { 
+        text-decoration: none;
+        color: white; /* nu r mal zur Probe muss angepast werden final*/
+    }
     
-}
+    li {
+       list-style-type: none;
+    }
+    
+    h1, h2, h3, h4 {  
+        font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
+        color: grey;
+        padding-top: 5%;
+        text-transform: uppercase;
+    
+    }
+    
+    a {
+        font-family: 'Arial', sans-serif;
+    }
+    
+    hr {
+       height: 3px; 
+       background:grey;
+       border: 0px;
+       margin: 0 auto 0 auto;
+    }
+    #home {
+        position: auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: rgb(146, 241, 253);
+
+    }
+    #home video {
+        position: auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.8;
+    }
+    
+    li, #logo {transition: all 350ms; -webkit-transition: all 350ms; -moz-transition: all 350ms; -o-transition: all 350ms;} /*BROWSERSUPPORT*/
+    
+    /* Pfeil-Runter muss gestyled weden und an die Höhe Fixiert werden*/
+    
+    /* HEADER *******************************************************************************************************************************/
+    
+    header {
+    
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        top: 10px;
+        left: 0px;
+        right: 0px;
+        background: blue;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+        z-index: 1;
+    
+    }
+    
+    #logo {
+        width: auto;
+        float: left;
+        margin: 5px 0 0 5px;
+    }
+    
+    #logo:hover {   /* blurry out by hovering*/
+            opacity: 0.75;
+    }
+    
+    #logo img {
+        width: 90%;
+    }
+    
+    header nav {
+        float: right;
+        margin: 0px 10px 0px 0px;
+    
+    }
+    
+    header nav ul li:hover {   /* blurry out by hovering*/
+        opacity: 0.75;
+        padding-top: 5px;
+        transition: all 200ms;
+    }
+    
+    header nav ul li{
+        float: left;
+        margin-right: 15px;
+    } 
