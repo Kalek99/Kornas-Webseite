@@ -11,6 +11,7 @@ section{
 
 a{
     text-decoration: none;
+    color: rgb(68, 66, 66); /* nu r mal zur Probe muss angepast werden final*/
 }
 
 li{
@@ -19,6 +20,10 @@ li{
 
 h1, h2, h3, h4{ 
     font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
+    color: grey;
+    padding-top: 5%;
+    text-transform: uppercase;
+
 }
 
 a{
