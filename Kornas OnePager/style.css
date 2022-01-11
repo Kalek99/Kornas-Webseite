@@ -23,7 +23,7 @@ html, body {
     h1, h2, h3, h4 {  
         font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
         color: grey;
-        padding-top: 5%;
+        
         text-transform: uppercase;
     
     }
@@ -40,7 +40,6 @@ html, body {
     }
     #video  {
         position: auto;
-        
         top: 0;
         left: 0;
         width: 100%;
@@ -112,11 +111,54 @@ html, body {
         margin-right: 15px;
     } 
 
-#ueberUns{
-background-color: burlywood;
-}
-#angebot{
+
+#ueberUns {
+    position: auto;
     background-color: burlywood;
+    
+}
+#ueberUns h1{
+    padding-bottom: 100px;
+}
+
+.inhalt img {
+    
+    width: 50%;
+    height: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.inhalt p{
+   
+  
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.inhalt h1 {
+  
+    
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+.inhalt{
+    margin: auto;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    
+    background-color: rgb(255, 255, 255,0.5);
+   
+
+}
+
+
+
+#angebot{
+       
+        background-color: burlywood;
 }
 #kontaktUndOeffnungszeiten{
     background-color: burlywood;
