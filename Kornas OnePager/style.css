@@ -162,7 +162,14 @@ html, body {
 }
 #kontaktUndOeffnungszeiten{
     background-color: burlywood;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -16px;
 }
-#impressum {
-    background-color: burlywood;
+
+footer{
+    margin-top: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: turquoise;
 }
