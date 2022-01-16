@@ -4,16 +4,17 @@ html, body {
     height: 100%;
     text-align: center;
     
+    scroll-behavior: smooth; /*macht er das jetzt dadurch o9der nicht?*/
+    scroll-padding: 0; /* nicht nötig */
     }
-    
+
     section {
         min-height: 100%;
-       
     }
     
     a { 
         text-decoration: none;
-        color: burlywood; /* nu r mal zur Probe muss angepast werden final*/
+        color: rgb(255, 255, 255); /* nu r mal zur Probe muss angepast werden final*/
     }
     
     li {
