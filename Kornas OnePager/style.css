@@ -6,6 +6,7 @@ html, body {
     
     scroll-behavior: smooth; /*macht er das jetzt dadurch o9der nicht?*/
     scroll-padding: 0; /* nicht nötig */
+    font-family: Arial, Helvetica, sans-serif;
     }
 
     section {
@@ -21,12 +22,13 @@ html, body {
        list-style-type: none;
     }
     
-    h1, h2, h3, h4 {  
+    h1,h2,h3,h4{  
         font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
         color: grey;
         
         text-transform: uppercase;
     
+        padding-top: 75px;
     }
     
     a {
@@ -120,7 +122,12 @@ html, body {
     
 }
 #ueberUns h1{
-    padding-bottom: 100px;
+    font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
+    color: grey;
+    
+    text-transform: uppercase;
+
+    padding-top: 75px;
 }
 
 .inhalt img {
@@ -150,8 +157,6 @@ html, body {
     height: 100%;
     
     background-color: rgb(255, 255, 255,0.5);
-   
-
 }
 
 /* Angebote--------------------------------------------------------------------------------------------------------*/
@@ -160,7 +165,6 @@ html, body {
        
         background-color: burlywood;
 }
-
 /* Kontakte--------------------------------------------------------------------------------------------------------*/
 
 #kontaktUndOeffnungszeiten{
@@ -186,6 +190,45 @@ html, body {
     
     background-color: rgb(255, 255, 255,0.5);
    
+}
+
+/* Impressum--------------------------------------------------------------------------------------------------------*/
+#impressum {
+    position: auto;
+    background-color: burlywood;
+}
+#inhalt-imp h4{ /* Überschrift will sich nicht stylen lassen finde meinen frehler nicht */
+    font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
+    color: grey;
+    
+    text-transform: uppercase;
+
+    padding-top: 75px;
+}
+
+.inhalt_imp {
+   
+    padding-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.inhalt_imp h4 {
+  
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+.inhalt_imp{
+    margin: auto;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    
+    background-color: rgb(255, 255, 255,0.5);
+}
+
+.inhalt_imp p{
+margin: auto;
 }
 
 /* Footer--------------------------------------------------------------------------------------------------------*/
