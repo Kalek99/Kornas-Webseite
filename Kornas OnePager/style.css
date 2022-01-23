@@ -2,7 +2,7 @@ html, body {
     margin: 0px;
     padding: 0;
     height: 100%;
-    text-align: center;
+    
     
     scroll-behavior: smooth; /*macht er das jetzt dadurch o9der nicht?*/
     scroll-padding: 0; /* nicht nötig */
@@ -124,7 +124,7 @@ html, body {
 #ueberUns h1{
     font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
     color: grey;
-    
+    text-align: center;
     text-transform: uppercase;
 
     padding-top: 75px;
@@ -165,6 +165,9 @@ html, body {
        
         background-color: burlywood;
 }
+#angebot h2{
+    text-align: center;
+}
 /* Kontakte--------------------------------------------------------------------------------------------------------*/
 
 #kontaktUndOeffnungszeiten{
@@ -173,7 +176,10 @@ html, body {
     height: 100%;
     margin-bottom: -16px;
 }
-
+#kontaktUndOeffnungszeiten h3{
+   
+    text-align: center;
+}
 .inhalt2 p{
   
     padding-left: 30px;
