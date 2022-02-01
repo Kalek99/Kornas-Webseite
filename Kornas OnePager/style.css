@@ -134,31 +134,23 @@ html, body {
 }
 
 .inhalt img {
-    
+    position: relative;
+    float: right;
     width: 50%;
     height: 50%;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-right: 25px;
 }
-.inhalt {
-   
-    padding-left: 30px;
-    padding-top: 50px;
-    padding-right: 30px;
-}
-.inhalt h1 {
-  
-    padding-left: 20px;
-    padding-top: 50px;
-    padding-right: 10px;
-}
+
+
 .inhalt{
     margin: auto;
     display: flex;
     width: 70%;
     height: 100%;
-    
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
     background-color: rgb(255, 255, 255,0.5);
 }
 
@@ -221,12 +213,7 @@ html, body {
     padding-top: 75px;
 }
 
-.inhalt_imp {
-   
-    padding-left: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+
 .inhalt_imp h4 {
   
     padding-left: 20px;
@@ -239,6 +226,9 @@ html, body {
     width: 70%;
     height: 100%;
     background-color: rgb(255, 255, 255,0.5);
+    padding-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .inhalt_imp p{
