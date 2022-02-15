@@ -26,9 +26,9 @@ html, body {
     h1,h3,h4{  
         font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
         color: grey;
-        
+        font-size: 40px;
         text-transform: uppercase;
-    
+        text-align: center;
         padding-top: 75px;
     }
     
@@ -129,10 +129,19 @@ html, body {
     color: grey;
     text-align: center;
     text-transform: uppercase;
-
+    font-size: 40px;
     padding-top: 75px;
 }
-
+#ueberUns h3 {
+    display:flex;
+    font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
+    color: grey;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 75px;
+}
 .inhalt img {
     position: relative;
     float: right;
@@ -141,6 +150,9 @@ html, body {
     margin-right: 25px;
 }
 
+.linie{
+    padding-top: 50px;
+}
 
 .inhalt{
     margin: auto;
@@ -160,33 +172,33 @@ html, body {
 
 
 #angebot{
-    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: -100px;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;  
     background-color: burlywood;
-    margin: auto;
+    margin-top: -120px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 
-.h8{
-    font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
-    color: grey;
-    justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
-}
+
+
 .pictures {
-    width: 1500px;
-    height: 700px;
+    width: 800px;
+    height: 500px;
     overflow: hidden;
     
 }
 .slide{
    
     width: 500%;
-    height: 700px;
+    height: 500px;
     display:flex;
 }
 .slide input{
@@ -198,14 +210,14 @@ html, body {
     transition: 2s;
 }
 .st img{
-    width: 1500px;
-    height: 700px;
+    width: 800px;
+    height: 500px;
     justify-content: center;
     align-items: center; 
 }
 .nav-m{
     position: absolute;
-    width: 1500px;
+    width: 800px;
     margin-top:-40px;
     justify-content: center;
     display: flex;
@@ -248,8 +260,8 @@ html, body {
 
 .nav-auto{
     position: absolute;
-    width: 1500px;
-    margin-top: 660px;
+    width: 800px;
+    margin-top: 460px;
     display: flex;
     justify-content: center;
 }
@@ -300,13 +312,13 @@ html, body {
 
 }
 #kontaktUndOeffnungszeiten h3{
-   
+    font-size: 40px;
     text-align: center;
 }
 .inhalt2 p{
     
     padding-left: 150px;
-    padding-top: 150px;
+    padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
 }
@@ -315,36 +327,40 @@ html, body {
     margin: auto;
     display: flex;
     width: 70%;
-    height: 100%;
+    
     
     background-color: rgb(255, 255, 255,0.5);
    
 }
 .maps {
     
-    padding-top: 150px;
+    padding-top: 50px;
     padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 /* Impressum--------------------------------------------------------------------------------------------------------*/
 #impressum {
     position: auto;
     background-color: burlywood;
+    
 }
 #inhalt-imp h4{ /* Überschrift will sich nicht stylen lassen finde meinen frehler nicht */
     font-family: 'Arial', sans-serif; /* Finde Arial ganz schick */
     color: grey;
-    
+    font-size: 40px;
     text-transform: uppercase;
-
+    text-align: center;
     padding-top: 75px;
 }
 
 
 .inhalt_imp h4 {
-  
+    font-size: 40px;
     padding-left: 20px;
     padding-top: 50px;
     padding-right: 10px;
+    text-align: center;
 }
 .inhalt_imp{
     margin: auto;
