@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>KORNAS | AQUARISTIK</title>
+        <meta charset="utf-8"><!--für Umlaute darstellen-->
+        <!--css Einbinden-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--schrift einbinden (loadtime beachten)-->
+    </head>
+
+    <body>
+<!--HEADER----------------------------------------------------------------------------------------------------------------------------->
+        <header class="header">
+            <div class="Logo"> <!--id oder class kp was schlauer ist-->
+               <a href="#"></a> <!--# wird ein link-->
+                <img src="WebInhalte/Logo/Logo in Bubble V3 ZUgeschnitten 150px.png" alt="LOGO">
+            </div>
+
+                    <ul class="menu">
+                       <li><a href="home">HOME</a></li>
+                       <li><a href="über uns">ÜBER UNS</a></li> 
+                       <li><a href="angebot">ANGEBOT</a></li> 
+                       <li><a href="kontakt & öffnungszeiten">KONTAKT & ÖFFNUNGSZEITEN</a></li> 
+                       <li><a href="impressum">IMPRESSUM</a></li>
+                    </ul>
+
+        </header>
+        
+<!--LANDINGPAGE----------------------------------------------------------------------------------------------------------------------------->
+        
+        <section class="home">
+           <!-- <h1></h1> Einsetzen???--> 
+            <a href="#ÜBER UNS"></a>
+            <video src="WebInhalte/Videos/backround.m4v" muted loop autoplay></video>    
+            
+        </section>
+        
+<!--ÜBER UNS----------------------------------------------------------------------------------------------------------------------------->
+        
+        <section class="über uns">
+            <hr> <!--Horizontale Linie / in css stylen-->
+            <h1>ÜBER UNS</h1>
+            <img src="" alt="Bilder zur Vorstellung">
+            <p>Hier kommt der Text rein</p> <!--Kornas: wir stellen vor!-->
+
+            <img src="" alt="Pfeil Runter"> <!--Pfeil in PS Designen-->
+        </section>
+
+<!--HEADER----------------------------------------------------------------------------------------------------------------------------->
+
+        <section class="angebot">
+            <hr>
+            <h2>ANGEBOT</h2>
+
+            <img src="" alt="Pfeil Runter"> <!--Pfeil in PS Designen-->
+        </section>
+
+<!--KONTAKT----------------------------------------------------------------------------------------------------------------------------->
+
+        <section class="kontakt & öffnungszeiten">
+            <hr>
+            <h3>KONTAKT & ÖFFNUNGSZEITEN</h3>
+
+            <img src="" alt="Pfeil Runter"> <!--Pfeil in PS Designen-->
+        </section>
+
+<!--IMPRESSUM----------------------------------------------------------------------------------------------------------------------------->
+
+        <section class="impressum">
+             <hr>
+           <h4>IMPRESSUM</h4>
+        </section>
+
+<!--FOOTER----------------------------------------------------------------------------------------------------------------------------->       
+        
+        <footer>
+            <p>
+                <!--Inhalt Überlegen (IG zeichen oder so)-->
+            </p>
+        </footer>
+    </body>
+
+</html>
+<!--Placehold.it für maße nutzen-->
